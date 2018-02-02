@@ -73,7 +73,7 @@
 ### 该代码是通过python实现的一个简单的客户端，功能是向server发送一条短信，然后接收分类结果
 
 
-### 代码运行顺序（以classifier_sklearn中的为例）
+## 代码运行顺序（以classifier_sklearn中的为例）
 ### 1.先运行load_data.py，将原始的短信数据加载进来并进行content和label的切分，这里可以修改读取的短信的条数
 ### 2.然后运行word_vector.py，可以计算tfidf特征，并存储为稀疏矩阵的形式
 ### 3.然后运行Train.py模型训练，这时候可以选择加载tfidf，也可以选择加载原始数据计算word2vec特征，还可以选择使用哪个分类器。
