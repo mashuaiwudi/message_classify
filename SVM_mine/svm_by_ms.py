@@ -159,3 +159,6 @@ def predict_result(x,alphs_result,x_result,y_result,b):
         else:
             pre.append(1)
     return pre
+
+
+#test git
